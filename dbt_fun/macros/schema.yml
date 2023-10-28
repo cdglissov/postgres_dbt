@@ -1,0 +1,5 @@
+version: 2
+
+macros:
+  - name: drop_model
+    description: A macro to drop old tables from example

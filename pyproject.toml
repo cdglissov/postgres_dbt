@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dbt-project"
+version = "0.1.0"
+description = ""
+authors = ["Christian"]
+readme = "README.md"
+packages = [{include = "dbt_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-core = "^1.6.6"
+dbt-postgres = "^1.6.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

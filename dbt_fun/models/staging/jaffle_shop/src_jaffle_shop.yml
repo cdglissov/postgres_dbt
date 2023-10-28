@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: test_db
+    schema: public
+    tables:
+      - name: jaffle_shop_customers
+        columns:
+          - name: '"ID"'
+            tests:
+              - unique
+              - not_null
+      - name: jaffle_shop_orders
+        columns:
+          - name: '"ID"'
+            tests:
+              - unique              
+              - not_null
