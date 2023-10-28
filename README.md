@@ -1,4 +1,7 @@
-# Setting up docker and postgres
+# dbt playground
+You can use this to set up a local playground for dbt using Postgres. Follow the setup below.
+
+# Setting up docker and Postgres
 
 Follow:
 
@@ -7,7 +10,7 @@ https://medium.com/@jewelski/configure-my-dbt-core-side-project-using-my-local-p
 
 Can now be accessed at http://localhost:5050/browser/. 
 
-Install poetry packages to run dbt. Run project within dbt folder. Project inspired by:
+Install poetry packages to run dbt. Run the project within dbt folder. A project inspired by:
 https://courses.getdbt.com/courses/fundamentals
 
 # dbt cheatsheet
@@ -45,6 +48,6 @@ dbt docs generate -> dbt docs serve
 
 # Notes:
 
-Default materialization is views. Configuration files takes presedence over dbt_project.yml. Subdirectories allow is to make configuration files for each folder. The dbt tests: unique, not null, accepted values, relationships.
+Default materialization is views. Configuration files take precedence over dbt_project.yml. Subdirectories allow us to make configuration files for each folder. The dbt tests: unique, not null, accepted values, relationships.
 
 
